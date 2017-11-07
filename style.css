@@ -1,0 +1,75 @@
+body{
+	font-family: sans-serif;
+}
+
+.container{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+nav{
+	border-bottom: 1px solid rgba(0,0,0,.3);
+}
+
+#nav-top{
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid rgba(0,0,0,.3);
+	padding: 10px 0;
+}
+
+#nav-top div{
+	flex: 1;
+}
+
+.textright{
+	text-align: right;
+}
+.textcenter{
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+}
+
+.textlink{
+	color: rgba(0, 0, 0, 0.54);
+}
+
+.textlink:hover{
+	color: rgba(0,0,0,.68);
+}
+
+.greenlink{
+	color: #03a87c;
+}
+
+.button{
+	border: 1px solid black;
+	padding: 10px 16px;
+	border-radius: 4px
+}
+
+/* This is a comment */
+
+.greenbutton{
+	color: #03a87c;
+	border-color: #03a87c;
+}
+
+#nav-bottom ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+#nav-bottom ul li{
+	display: inline-block;
+	padding: 10px;
+	font-size: 12px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 0.54);
+}
